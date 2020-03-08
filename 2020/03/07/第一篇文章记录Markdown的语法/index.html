@@ -19,7 +19,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://biance.xyz/images/og_image.png">
 <meta property="article:published_time" content="2020-03-07T04:33:21.000Z">
-<meta property="article:modified_time" content="2020-03-07T08:47:47.449Z">
+<meta property="article:modified_time" content="2020-03-08T16:15:32.843Z">
 <meta property="article:author" content="小明边">
 <meta property="article:tag" content="Blog">
 <meta property="article:tag" content="Markdown">
@@ -150,7 +150,7 @@
             <div class="level-left">
                 <time class="level-item has-text-grey" datetime="2020-03-07T04:33:21.000Z"><i class="far fa-calendar-alt">&nbsp;</i>2020-03-07</time>
                 
-                <time class="level-item has-text-grey is-hidden-mobile" datetime="2020-03-07T08:47:47.449Z"><i class="far fa-calendar-check">&nbsp;</i>2020-03-07</time>
+                <time class="level-item has-text-grey is-hidden-mobile" datetime="2020-03-08T16:15:32.843Z"><i class="far fa-calendar-check">&nbsp;</i>2020-03-09</time>
                 
                 
                 <div class="level-item">
@@ -163,7 +163,7 @@
                     <i class="far fa-clock"></i>&nbsp;
                     
                     
-                    2 分钟 读完 (大约 289 个字)
+                    5 分钟 读完 (大约 742 个字)
                 </span>
                 
                 
@@ -184,15 +184,116 @@
 <figure class="highlight bash"><figcaption><span>例：</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 这是一级标题</span></span><br><span class="line"><span class="comment">## 这是二级标题</span></span><br><span class="line"><span class="comment">### 这是三级标题</span></span><br><span class="line"><span class="comment">#### 这是四级标题</span></span><br><span class="line"><span class="comment">##### 这是五级标题</span></span><br><span class="line"><span class="comment">###### 这是六级标题</span></span><br></pre></td></tr></table></figure>
 <p>输出：<br><font size=6>这是一级标题</font><br><font size=5>这是二级标题</font><br><font size=4>这是三级标题</font><br><font size=3>这是四级标题</font><br><font size=2>这是五级标题</font><br><font size=1>这是六级标题</font></p>
 <hr>
-<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><h2 id="单行代码"><a href="#单行代码" class="headerlink" title="单行代码"></a>单行代码</h2><p>用反引号` 包住代码 ，即<code>`代码块`</code></p>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><ul>
+<li>单行代码<br>用反引号` 包住代码 ，即<code>`代码块`</code></li>
+</ul>
 <p>例：<code>`print(&quot;hello&quot;)`</code></p>
 <p>输出：<code>print(&quot;hello&quot;)</code></p>
-<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>用三个反引号` 包住代码块 且每个反引号换行<br><code>```</code><br><code>代码块</code><br><code>```</code><br>对于Hexo博客且安装highlight.js实现代码高亮 可有以下参数</p>
+<ul>
+<li>代码块<br>用三个反引号` 包住代码块 且每个反引号换行</li>
+</ul>
+<p><code>```</code><br><code>代码块</code><br><code>```</code><br>对于Hexo博客且安装highlight.js实现代码高亮 可有以下参数</p>
 <p><code>``` [language] [title] [url] [link text]</code><br><code>代码块</code><br><code>```</code></p>
 <figure class="highlight bash"><figcaption><span>例：</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">``` java helloworld.java /archives/ 归档</span><br><span class="line">public static void main(String args[])&#123;</span><br><span class="line">    System.out.println(<span class="string">"Hello World!"</span>);</span><br><span class="line">&#125;</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
 <p>输出：</p>
 <figure class="highlight java"><figcaption><span>helloworld.java</span><a href="/archives/">归档</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"Hello World!"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<hr>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>- 内容<br>⚠️中间有空格, - + * 均可，代表不同种类</p>
+<figure class="highlight bash"><figcaption><span>例：</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">- 狮子🦁️</span><br><span class="line">- 老虎🐯</span><br><span class="line">+ 苹果🍎</span><br><span class="line">+ 桔子🍊</span><br><span class="line">* 向日葵🌻</span><br><span class="line">* 玫瑰 🌹</span><br></pre></td></tr></table></figure>
+<p>输出：</p>
+<ul>
+<li>狮子🦁️</li>
+<li>老虎🐯</li>
+</ul>
+<ul>
+<li>苹果🍎</li>
+<li>桔子🍊</li>
+</ul>
+<ul>
+<li>向日葵🌻</li>
+<li>玫瑰 🌹</li>
+</ul>
+<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>数字. 内容<br>⚠️中间有空格</p>
+<figure class="highlight bash"><figcaption><span>例：</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 把冰箱门打开</span><br><span class="line">2. 把🐘放进去</span><br><span class="line">3. 把冰箱门关上</span><br></pre></td></tr></table></figure>
+
+<p>输出：</p>
+<ol>
+<li>把冰箱门打开</li>
+<li>把🐘放进去</li>
+<li>把冰箱门关上</li>
+</ol>
+<hr>
+<h1 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h1><ul>
+<li>加粗<br>**包起来</li>
+<li>斜体<br>*包起来</li>
+<li>斜体加粗<br>***包起来</li>
+<li>删除线<br>~~包起来</li>
+</ul>
+<figure class="highlight bash"><figcaption><span>例：</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">**加粗**</span><br><span class="line">*斜体*</span><br><span class="line">***加粗斜体***</span><br><span class="line">~~加删除线~~</span><br></pre></td></tr></table></figure>
+<p>输出：<br><strong>加粗</strong><br><em>斜体</em><br><strong><em>加粗斜体</em></strong><br><del>加删除线</del></p>
+<hr>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>&gt;引用的内容<br>⚠️中间无空格，可以加多个来嵌套</p>
+<figure class="highlight bash"><figcaption><span>例：</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt;引用内容</span><br><span class="line">&gt;&gt;引用内容</span><br><span class="line">&gt;&gt;&gt;引用内容</span><br><span class="line"></span><br><span class="line">&gt;引用内容</span><br></pre></td></tr></table></figure>
+<p>输出：</p>
+<blockquote>
+<p>引用内容</p>
+<blockquote>
+<p>引用内容</p>
+<blockquote>
+<p>引用内容</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>引用内容</p>
+</blockquote>
+<hr>
+<h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><p>三个及以上的-或*</p>
+<figure class="highlight bash"><figcaption><span>例：</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">----</span><br><span class="line">----------</span><br><span class="line">***</span><br><span class="line">****</span><br><span class="line">**********</span><br></pre></td></tr></table></figure>
+<p>输出：</p>
+<hr style="height:1px;margin:1rem 0">
+<hr style="height:1px;margin:1rem 0">
+<hr style="height:1px;margin:1rem 0">
+<hr style="height:1px;margin:1rem 0">
+<hr style="height:1px;margin:1rem 0">
+<hr style="height:1px;margin:1rem 0">
+
+<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p>![caption](图片地址 ‘’鼠标在图片上显示的文字’’)</p>
+<p>例：<code>![哈莉·奎茵（Harley Quinn）](http://ent.k618.cn/ylzx/201610/W020161015180432690118.jpeg &quot;小丑女&quot;)</code></p>
+<p>输出：<br><img src="http://ent.k618.cn/ylzx/201610/W020161015180432690118.jpeg" alt="哈莉·奎茵（Harley Quinn）" title="小丑女"></p>
+<hr>
+<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p>[超链接名](超链接地址 “超链接title”)</p>
+<p>例：<code>[百度](http://baidu.com)</code></p>
+<p>输出：<br><a href="http://baidu.com">百度</a></p>
+<hr>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">表头|表头|表头</span><br><span class="line">---|:--:|---:</span><br><span class="line">内容|内容|内容</span><br></pre></td></tr></table></figure>
+
+<p>⚠️-有一个就可以 多个为了对齐<br>默认左对齐 两边加:居中 右边加:居右</p>
+<figure class="highlight bash"><figcaption><span>例：</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">姓名|性别|年龄</span><br><span class="line">---|:--:|---:</span><br><span class="line">小明|男|12</span><br><span class="line">小花|女|24</span><br></pre></td></tr></table></figure>
+<p>输出：</p>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th align="center">性别</th>
+<th align="right">年龄</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>小明</td>
+<td align="center">男</td>
+<td align="right">12</td>
+</tr>
+<tr>
+<td>小花</td>
+<td align="center">女</td>
+<td align="right">24</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h1><p>未安装相关插件，用到在补充。。</p>
+<p>END</p>
 
         </div>
         
@@ -357,15 +458,47 @@
         <a class="is-flex" href="#代码">
         <span class="has-mr-6">2</span>
         <span>代码</span>
-        </a><ul class="menu-list"><li>
-        <a class="is-flex" href="#单行代码">
-        <span class="has-mr-6">2.1</span>
-        <span>单行代码</span>
         </a></li><li>
-        <a class="is-flex" href="#代码块">
-        <span class="has-mr-6">2.2</span>
-        <span>代码块</span>
-        </a></li></ul></li></ul>
+        <a class="is-flex" href="#列表">
+        <span class="has-mr-6">3</span>
+        <span>列表</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#无序列表">
+        <span class="has-mr-6">3.1</span>
+        <span>无序列表</span>
+        </a></li><li>
+        <a class="is-flex" href="#有序列表">
+        <span class="has-mr-6">3.2</span>
+        <span>有序列表</span>
+        </a></li></ul></li><li>
+        <a class="is-flex" href="#字体">
+        <span class="has-mr-6">4</span>
+        <span>字体</span>
+        </a></li><li>
+        <a class="is-flex" href="#引用">
+        <span class="has-mr-6">5</span>
+        <span>引用</span>
+        </a></li><li>
+        <a class="is-flex" href="#分割线">
+        <span class="has-mr-6">6</span>
+        <span>分割线</span>
+        </a></li><li>
+        <a class="is-flex" href="#图片">
+        <span class="has-mr-6">7</span>
+        <span>图片</span>
+        </a></li><li>
+        <a class="is-flex" href="#超链接">
+        <span class="has-mr-6">8</span>
+        <span>超链接</span>
+        </a></li><li>
+        <a class="is-flex" href="#表格">
+        <span class="has-mr-6">9</span>
+        <span>表格</span>
+        </a></li><li>
+        <a class="is-flex" href="#流程图">
+        <span class="has-mr-6">10</span>
+        <span>流程图</span>
+        </a></li></ul>
             </div>
         </div>
     </div>
