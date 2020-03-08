@@ -443,6 +443,10 @@ img {
 .content code {
   padding: 0;
   background: rgba(41,41,41,0.03);
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 .content > code,
 .content :not(pre) > code {
